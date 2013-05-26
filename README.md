@@ -1,13 +1,23 @@
-#Sublime snippets for ruby
+Missing Ruby & RSpec Snippets for Sublime Text 2
+================================================
 
-This is a collection of snippets of language Ruby. Also includes Rspec snippets.
-Simply start type first symbols.
+A.K.A. I'll Never Be Sure Why Sublime Didn't Ship With `do...end`
 
-##Instalation
+Start typing the first few letters, and hit tab to complete!
 
-Do `git clone git://github.com/accessd/sublime-useful-ruby-snippets.git` in your sublime packages directory(in Linux is ~/.config/sublime-text-2/Packages)
+### Install it!
 
-##Samples:
+Just clone it into the right folder using
+
+`git clone git://github.com/accessd/sublime-useful-ruby-snippets.git`
+
++ __Linux__: In your Sublime packages directory, probably `~/.config/sublime-text-2/Packages`
++ __Mac OS X__ (I'm on 10.7 Lion): `~/Library/Application\ Support/Sublime\ Text\ 2/Packages/`.
+
+###### Fun Fact: you don't have to be in the Ruby folder, because each snippet is scoped to be used in `.rb` files.
+
+
+## Examples
 
 Block with do:
 
@@ -28,4 +38,52 @@ FactoryGirl create method:
   create(:...)
 ```
 
-Ruby snippets for Sublime Text Editor http://www.sublimetext.com/
+## Complete Inventory
+
+`...` denotes the cursor position immediately after code insertion.
+
+```ruby
+  before do
+    ...
+  end
+```
+
+```ruby
+  before { ... }
+```
+
+```ruby
+  create ( :... )
+```
+
+```ruby
+  describe "..." do
+  
+  end
+```
+
+```ruby
+       do
+    ...
+  end
+```
+
+```ruby
+  ...: 
+```
+
+```ruby
+  it { should... }
+```
+
+```ruby
+  let(:...) {  }
+```
+
+```ruby
+  let!(:...) {  }
+```
+
+---
+
+[Ruby](http://ruby-lang.org) snippets for [Sublime Text Editor](http://www.sublimetext.com/)
