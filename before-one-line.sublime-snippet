@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[before { $0 }]]></content>
-    <tabTrigger>b</tabTrigger>
-    <scope>source.ruby.rspec</scope>
+    <tabTrigger>bef</tabTrigger>
+    <scope>source.ruby</scope>
     <description>before { }</description>
 </snippet>
