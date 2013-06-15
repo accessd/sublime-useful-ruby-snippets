@@ -69,6 +69,20 @@ FactoryGirl create method:
 ```
 
 ```ruby
+  each { |...|  }
+```
+
+```ruby
+  each_pair { |k,v| ... }
+```
+
+```ruby
+  each_pair do |k,v|
+    ...
+  end
+```
+
+```ruby
   ...: 
 ```
 
